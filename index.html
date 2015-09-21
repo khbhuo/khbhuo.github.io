@@ -12,6 +12,28 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="/static/css/base.css">
+		<style>
+			#container {
+				height: 400px;
+				width: 400px;
+				position: relative;
+			}
+			#image {
+				position: absolute;
+				left: 0;
+				top: 0;
+			}
+			#text {
+				z-index: 100;
+				position: absolute;
+				color: white;
+				background-color: black;
+				font-size: 24px;
+				font-weight: bold;
+				left: 150px;
+				top: 350px;
+			}
+		</style>
     </head>
 	
 	<body>
@@ -24,7 +46,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#">Kevin Huo</a>
+					<a class="navbar-brand" href="#">Portfolio</a>
 				</div>
 				<div id="navbar" class="navbar-collapse collapse">
 				  <ul class="nav navbar-nav">
@@ -35,6 +57,13 @@
 				</div>
 			</div>
 		</nav>
+		
+		<div class="container" style="margin-top: 80px; width: 100%">
+			<img src="static/img/e5bridge.jpg" alt="" />
+			<p id="text">
+				Kevin Huo<br />Mechatronics Engineering
+			</p>
+		</div>
 	</body>
 	
 </html>	
