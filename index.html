@@ -1,69 +1,646 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Portfolio of Kevin Huo - Mechatronics Engineering Student">
-        <meta name="keywords" content="kevin, huo, mechantronics, electrical, mechanical, software, robotics, engineer, engineering">
-        <meta name="author" content="Kevin Huo">
-        <title>Kevin Huo | Mechatronics Engineering Student</title>
-        <link rel="icon" type="image/x-icon" href="/static/img/favicon.ico" />
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="/static/css/base.css">
-		<style>
-			#container {
-				height: 400px;
-				width: 400px;
-				position: relative;
-			}
-			#image {
-				position: absolute;
-				left: 0;
-				top: 0;
-			}
-			#text {
-				z-index: 100;
-				position: absolute;
-				color: white;
-				background-color: black;
-				font-size: 24px;
-				font-weight: bold;
-				left: 150px;
-				top: 350px;
-			}
-		</style>
-    </head>
-	
-	<body>
-		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="#">Portfolio</a>
-				</div>
-				<div id="navbar" class="navbar-collapse collapse">
-				  <ul class="nav navbar-nav">
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#contact">Contact</a></li>
-				  </ul>
-				</div>
-			</div>
-		</nav>
-		
-		<div class="container" style="margin-top: 80px; width: 100%">
-			<img src="static/img/e5bridge.jpg" alt="" />
-			<p id="text">
-				Kevin Huo<br />Mechatronics Engineering
-			</p>
-		</div>
-	</body>
-	
-</html>	
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio of Kevin Huo - Mechatronics Engineering Student">
+    <meta name="keywords" content="kevin, hao bin, huo, mechantronics, electrical, mechanical, software, robotics, engineer, engineering">
+    <meta name="author" content="Kevin Huo">
+    <title>Kevin Huo-Tron</title>
+    <link rel="icon" href="img/kforkevin.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Kevin Huo</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">About Me</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">Experience</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Interests</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-heading">Kevin Hao Bin Huo</div>
+                <div class="intro-lead-in">UW Mechatronics Engineering</div>
+                <a href="#services" class="page-scroll btn btn-xl">About Me</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About Me</h2>
+                    <h3 class="section-subheading text-muted">Continuous Improvement</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Hardware</h4>
+                    <p class="text-muted">Arduino · BeagleBone Black<br>SOLIDWORKS · AutoCAD<br>ArtCAM · Slic3r · Various CAM Software</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Software</h4>
+                    <p class="text-muted">C++ · Python · Java<br>MATLAB<br>ROS · Linux<br>HTML · CSS · JavaScript<br>Microsoft Office · Adobe Photoshop</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Practical</h4>
+                    <p class="text-muted">Soldering · PCB Prototyping<br>CNC Router · 3D Printing
+                        <br>Woodshop · Metalshop</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Projects</h2>
+                    <h3 class="section-subheading text-muted">Tinker and Hack</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Humanoid Arm (Solus Robots)</h4>
+                        <p class="text-muted">C++ · SOLIDWORKS · CNC Machining</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>UW Robotics Design Team</h4>
+                        <p class="text-muted">Mars Rover</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Wireless Arduino Thermostat</h4>
+                        <p class="text-muted">Arduino · Bluetooth · Python</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/golden.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Mario Kart Robot</h4>
+                        <p class="text-muted">NXT · Bluetooth · C</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/escape.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>3D Printed Wrist Joint</h4>
+                        <p class="text-muted">Arduino · SOLIDWORKS · 3D Printing</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/dreams.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Hackathons</h4>
+                        <p class="text-muted">Hack4Health · TerribleHack</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Experience</h2>
+                    <h3 class="section-subheading text-muted">Work and Voluteering</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/UW.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="subheading">Wearable Technology for Health
+                                        <br>University Research Assistant
+                                        <br>University of Waterloo</h4>
+                                    <h4>Sept 2015 - Current</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Working under the supervision of 
+                                        <br>Dr. James Tung and graduate students
+                                        <br>Utilizing wearable SHIMMER sensors to collect IMU,
+                                        <br>Electrocardiography, and Electromyography data.
+                                        <br>Partaking in data collection processes and
+                                        <br>sensor data processing and
+                                        <br>analysis utilizing <b>MATLAB</b></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/kingsley.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="subheading">Primary School Helper
+                                        <br>Kingsley School,Toronto, ON</h4>
+                                    <h4>Sept 2015</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Organized school equipment in preparation for the upcoming school year</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/solus.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="subheading">Robotics Engineer<br>Solus Robot, Vaughan, ON</h4>
+                                    <h4>Apr - Sept 2015</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted"><b>Designed</b> and <b>manufactured</b> multiple prototype humanoid robot arms.<br>Utilized SOLIDWORKS, fabricated using ArtCAM, CNC Router, and 3D Printer.
+                                        <br>Programmed and troubleshot Arduino code (<b>C++</b>) to control and auto-calibrate robot arms.
+                                        <br>Soldered and fabricated <b>prototype</b> Arduino shields for arm unit and pan and tilt unit.
+                                        <br>Worked extensively with MLX90316 magnetic encoder and 10 DOF MEMS IMU sensors</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/fss.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="subheading">Water Safety Instructor
+                                        <br>Felix's Swim School, Markham, ON</h4>
+                                    <h4>Oct 2013 - Aug 2014</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Taught proper water safety and safe swimming practices to children ages 3-15.<br>Conducted training sessions for new instructors in a friendly and professional manner </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="subheading">Young Activist Club, YAC<br>Markham, ON</h4>
+                                    <h4>Feb 2011- May 2014</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Cofounded the Young Activist Club to make an impact within the local community.<br>Organized and supervised multiple local and school wide events raising over $7000 for multiple charities and awareness campaigns including “30 Hour Technology Famine” which raised over $2000 with proceeds going to Free the Children in 2014.</p>
+                                </div>
+                            </div>
+                        </li>
+                         <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="subheading">Minecraft Server</h4>
+                                    <h4>Jan - May 2014</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Started a Minecraft server to make the game more enjoyable for the Minecraft community.<br>Managed multiple employees who helped manage players and run the server.<br>Praised by users for the appealing design and enjoyable gaming atmosphere.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>Kevin
+                                    <br>Hao Bin</font>
+                                    <br>Huo</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Interests</h2>
+                    <h3 class="section-subheading text-muted">Things that are important to me</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Music · Piano</h4>
+                        <p class="text-muted">Completed ARCT<br>Piano Performace Certifate<br>2015</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Fields of Interest</h4>
+                        <p class="text-muted">Software Development · Product Prototyping/Design
+                            <br>Material Science · Medical · Automotive
+                            <br>Circuit Design · Wearable Tech · Data Informatics</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Learning</h4>
+                        <p class="text-muted">Passion for <b>Learning</b> and <b>Experiencing</b>
+                            <br>new things
+                            <br>Software · Design · Cultures · Languages</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted"><strong>" Tell me and I forget.<br>Teach me and I remember.<br>Involve me and I learn. "</strong></p>
+                    <p>- Benjamin Franklin</p>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contact Me</h2>
+                    <h3 class="section-subheading text-muted">Send me a message</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Kevin Huo 2015</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Humanoid Arm<br>(Solus Robots)</h2>
+                            <p class="item-intro text-muted"><i>Solus Robots is start-up focused on building humanoid robots<br>for the marketing and servicing industries</i></p>
+                            <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
+                            <p>At Solus Robots, I was tasked with the responsibility of designing, manufacturing, and implementing a prototype 3 axis robotic arm from beginning to end. Being a year old start-up, they had an earlier version prototype made of prefabricated components which they wanted to replace with CNCed HDPE plastic to reduce costs. I came up with a design for the arm which utilized interlocking 1/4" plastic components which provided a sturdy frame and easy to assemble design. All stuctural and rotating components of the prototype were made from this design</p>
+                            <p><strong>For this project I worked on:</strong>
+                                <br>SOLIDWORKS for the design
+                                <br>ArtCAM to make the CNC files and a CNC Router for manufacturing
+                                <br>Arduino and C++ for the calibration code and communications to the on board computer
+                                <br>Soldering and wiring electrical connections and prototype shields
+                                <br>Learning some EAGLE CAD to assist with the electrical design
+                            </p>
+                            <p><a href="http://www.solusrobots.com/Video/RobotArmsInMotion.mp4" target="_blank">See one of my earlier prototypes dancing!</a>
+                                <br>(Warning: Music may be a little loud)</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>University of Waterloo Robotics Design Team</h2>
+                            <p class="item-intro text-muted">Mars Rover</p>
+                            <div>
+                                <iframe src="https://www.youtube.com/embed/5I9JXH_UNOU?rel=0" allowfullscreen="" frameborder="0" height="450" width="600"></iframe>
+                            </div>
+                            <p>Above is a video the rover, Arthrobot, we built<br>for the 2015 URC qualifier</p>
+                            <p>Here at the University of Waterloo Robotics Team is where I started to get involved with extra curricular student design teams. Initially I started off as a general team member, helping out wherever I was needed. Eventually I started to work more closely with the IMU sensor, processing that data to display the orientation of the rover through a 3D model drawn up on the Qt GUI using OpenGL and Python. In the current term, I'm hoping to focus my efforts into working with the software team and learn more about ROS.</p>
+                            <p><strong>Specific Contributions:</strong>
+                                <br>Worked on soldering and wiring base electronics
+                                <br>Assisted in making the acrylic electronics casing
+                                <br>Utilized OpenGL and Python to create a model of the rover’s orientation based off the IMU sensor data
+                                <br>Assisted in debugging Python code</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Wireless Arduino Thermostat</h2>
+                            <p class="item-intro text-muted">Ongoing Project</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
+                            <p>I started working on this project over the summer. The plan for this is to make a thermostat which I can place in an obscure corner of my home to monitor the humidity and temperature within the house and notify me when to open the windows, turn on the AC or heat.</p>
+                            <p>For this project I am using:
+                            <br>a DHT11 Humidity/Temperature sensor
+                            <br>an HC-05 Bluetooth Module
+                            <br>Python with PySerial and PyBluez for the PC - Arduino communication
+                                <br></p>
+                            <p>Currently I am finishing up the script for the Bluetooth communication in Python.
+                            <br>The next step would be to process this data and make a GUI to display the data.</p>
+                            <p>I will be updating this description with every milestone I reach in this project</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Mario Kart Robot</h2>
+                            <p class="item-intro text-muted">Mechatronics Engineering Design Project</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
+                            <p>For this project we used Wii Remotes to wirelessly control NXT robots through a "Mario Kart circuit". Utilized C++ and C# for the programming. A proper engineering design process was used in designing and making the chassis of the robots.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>3D Printed Wrist Joint</h2>
+                            <p class="item-intro text-muted">3D Printed forearm + hand assembly</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt="">
+                            <p>This was a little side project I worked on during the summer. I designed the forearm to make sure that it was approximately the smae size as my forearm, and designed a universal wrist joint that was implemented to allow a wide range of motion. I used an Arduino and servos to move the hand and graphed out the range of movement using Excel.</p>
+                            <p>Eventually my supervisor at Solus Robots encoporated the design into the original prototype of the robot arms!</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Hackathons</h2>
+                            <p class="item-intro text-muted">This is a collection of<br>Hackathons I have attended</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
+                            <p><strong>Hack4Health</strong>
+                            </p>
+                            <p><strong>TerribleHack</strong>
+                            </p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
+
+</body>
+
+</html>
