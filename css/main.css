@@ -102,12 +102,12 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #02A6FF;
+    background-color: #02A6FF;
 }
 
 .btn-primary .badge {
-    color: #fed136;
+    color: #007DF3;
     background-color: #fff;
 }
 
@@ -154,12 +154,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #02A6FF;
+    background-color: #02A6FF;
 }
 
 .btn-xl .badge {
-    color: #fed136;
+    color: #007DF3;
     background-color: #fff;
 }
 
